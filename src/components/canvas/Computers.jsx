@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./shiba/scene.gltf");
+  const computer = useGLTF("./desktop_pc/scene.gltf");
 
   return (
     <mesh>
@@ -21,7 +21,7 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 4 : 3.75}
+        scale={isMobile ? 4 : 1.75}
         position={isMobile ? [0, -2.25, -1.5] : [0, -2.25, -1.5]}
         rotation={[-0.00, -0.0, -0.0]}
       />
