@@ -1,0 +1,349 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1760,
+      "max": [
+        0.010667998343706131,
+        -0.01525299996137619,
+        0.00711899995803833
+      ],
+      "min": [
+        -0.007825001142919064,
+        -0.05442900210618973,
+        -0.017843998968601227
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 21120,
+      "componentType": 5126,
+      "count": 1760,
+      "max": [
+        0.9997521042823792,
+        0.9995972514152527,
+        0.9984536170959473
+      ],
+      "min": [
+        -0.9987623691558838,
+        -0.9995044469833374,
+        -0.9994733929634094
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1760,
+      "max": [
+        0.99267578125,
+        0.99755859375
+      ],
+      "min": [
+        0.00189971923828125,
+        0.0011997222900390625
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 14080,
+      "componentType": 5126,
+      "count": 1760,
+      "max": [
+        0.9912109375,
+        0.99072265625
+      ],
+      "min": [
+        0.00806427001953125,
+        0.00806427001953125
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 6156,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 42240,
+      "componentType": 5126,
+      "count": 349,
+      "max": [
+        0.016565335914492607,
+        0.002212428953498602,
+        0.0020179343409836292
+      ],
+      "min": [
+        -0.003533676266670227,
+        -0.03915854170918465,
+        -0.008057289756834507
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 46428,
+      "componentType": 5126,
+      "count": 349,
+      "max": [
+        0.9993805885314941,
+        0.9954954981803894,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9954954981803894,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 28160,
+      "componentType": 5126,
+      "count": 349,
+      "max": [
+        0.96728515625,
+        0.9970703125
+      ],
+      "min": [
+        0.00307464599609375,
+        0.01241302490234375
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 30952,
+      "componentType": 5126,
+      "count": 349,
+      "max": [
+        0.93212890625,
+        0.93994140625
+      ],
+      "min": [
+        0.00806427001953125,
+        0.55615234375
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24624,
+      "componentType": 5125,
+      "count": 945,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Luquita (https://sketchfab.com/speedmodel)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/valorant-phoenix-chibi-keychain-b6bf2b15cb914a0caf3e211277dc58ac",
+      "title": "Valorant - Phoenix Chibi (Keychain)"
+    },
+    "generator": "Sketchfab-13.32.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 28404,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 33744,
+      "byteOffset": 28404,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 50616,
+      "byteOffset": 62148,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 112764,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Buddy_ChibiPhoenix_MI_baseColor.png"
+    },
+    {
+      "uri": "textures/Buddy_ChibiPhoenix_MI_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Buddy_ChibiPhoenix_MI",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "name": "Buddy_Anime_Plastic_MI",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.2019596836332689,
+          0.2019596836332689,
+          0.2019596836332689,
+          1.0
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.15085760261364606
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "root"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "GLTF_SceneRootNode"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "name": "GN_Buddies_ChibiPhoenix_Charm_StaticMesh_0"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_4"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_5"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
